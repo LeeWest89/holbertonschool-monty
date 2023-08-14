@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * push - pushes a node
+ * push - pushes the node
  *
  * @stack: stack
  * @line_number: line number
@@ -37,7 +37,7 @@ void push(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * pall - prints all the values on the stack
+ * pall - prints the stack
  *
  * @stack: stack
  * @line_number: line number

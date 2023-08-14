@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * tokenize - tokenizes the line
+ * tokenize - tokenizes
  *
  * @line: line
  * Return: array of tokens

@@ -2,7 +2,7 @@
 int num;
 
 /**
- * opcall - checks for the opcode
+ * opcall - checks opcode
  *
  * @stack: stack
  * @line_number: line number

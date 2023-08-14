@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * arg_error - handles error in the beginning
+ * arg_error - error for if no file or wrong number of args
  */
 
 void arg_error(void)
@@ -11,7 +11,7 @@ void arg_error(void)
 }
 
 /**
- * o_error - error on opening the file
+ * o_error - file opening error
  *
  * @argv: argument array
  */
@@ -25,7 +25,7 @@ void o_error(char **argv)
 }
 
 /**
- * i_error - unknown opcode
+ * i_error - opcode is unknown
  *
  * @line_number: line number
  * @opcode: opcode

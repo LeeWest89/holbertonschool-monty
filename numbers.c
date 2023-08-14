@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * number - checks if the string is a number
+ * number - checks if string is a number
  *
  * @tokens: array of tokens
  * @line_number: line number
